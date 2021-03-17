@@ -1,0 +1,202 @@
+
+*{box-sizing: border-box;}
+
+body {margin: 0;
+	 background-color: #ffffff;
+}
+#container {color: #000000;
+			font-family: Verdana, Arial, sans-serif;
+}
+header {  background-color: #f4a496;
+          border-bottom: 2px solid #808080;
+          background-image: url(Images/mpbanner.jpg);
+          text-align: center;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 120px;
+
+}
+
+h1 {text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0;
+	
+}
+
+
+nav {float: left;
+	width: 150px;
+    background-color: #ffffff;
+    color: #808080;
+    border-right: 2px solid #808080;
+    padding-top: 20px;
+    margin-left: 30px;
+    text-align: right;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+nav ul { display: block;
+        margin-top: 10px;
+        margin-right: 20px;
+        list-style-type: none;
+        text-align: right;
+        padding-left: 0;
+        color: #808080;
+}
+
+nav h3 {font-size: 1em;}
+
+nav a {text-decoration: none;
+	 font-size: 1em;}
+nav a:link{color:#f4a496;}
+nav a:visited{color:#809999;}
+nav a:focus, nav a:hover{color: #cc2d74;}
+nav a:active{color: #808080;}
+
+#phone { letter-spacing: -2px;}
+
+.contact {
+    margin-top: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+aside {float: right;
+	 width: 200px;
+    height: 400px;
+    position: relative;
+    display: block;
+    margin-left: 20px;  
+    
+}
+
+aside h3 {padding-bottom: 2px;
+		border-bottom: 1px solid #808080;
+		margin: 10px;
+		font-size: 0.90em;
+		color: #f4a496;
+        text-align: center;
+}
+
+aside h5 {
+    text-align: center;
+}
+
+aside img {
+    padding-left: 10px;
+}
+
+aside p {
+    font-size: .8em;
+}
+
+aside a {
+    color: #809999;
+}
+
+aside a:hover{color: #cc2d74;}
+
+
+main {
+	padding: 1px 1px 1px 200px;
+	background-color: #ffffff;
+	color: #809999;
+    margin-bottom: 0;
+}
+main p {margin: 20px;}
+main h2, main h3 {color: #cc2d74;}
+
+.mug {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.button {
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+a button:hover {
+  background-color: #f4a496;}
+
+button a {
+    text-decoration:none;
+    color: #808080;}
+
+.sneak {
+    position: relative;
+    display: inline-block;
+    padding: 23px;
+    
+}
+
+.preview {
+    position: relative;
+    text-align: center;
+    margin-top: .5em;
+}
+
+div a {text-decoration: none}
+
+
+footer {font-size: .70em;
+        text-align: center;
+        color: #808080;
+        background-color: #ffffff;
+        padding-top: 10px;
+        clear: both; 
+        padding: 30px;
+}
+
+
+@media only screen and (max-width: 1042px) {
+	main {margin: 0px;}
+	body {margin: 0px;}
+	#container {min-width: auto; text-align: center;}
+	nav {float: none; width: auto; text-align: center;}
+    .contact { margin-top: 0; margin-right: 20px;}
+	aside {float: none; width: auto; height: auto;
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;}
+	nav li {display: inline-block; padding: 0.5em;}
+	nav ul {text-align: center;}
+	h1, h2, h3 {font-size: 120%;}
+	p {font-size: 90%;}
+	nav img {display: none;}
+}
+
+@media only screen and (max-width: 768px) {
+	#container {min-width: auto;}
+	h1, h2, h3 {font-size: 100%;}
+	p, {font-size: 80%;}
+	nav, nav ul, nav li {padding: 0px;}
+	nav li {display: block;}
+	nav a {display: block;
+		   padding: 0.5em 0;
+		   border-bottom: 2px ridge #00005d;	
+	}
+	img {display: none;}
+    #knowme {
+        padding: 0;
+        margin-left: 0;
+        left: 0px;
+    }
+    main {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+}
